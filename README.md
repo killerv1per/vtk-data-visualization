@@ -2,6 +2,11 @@ Hurricane Isabel Scientific Data Visualization
 
 This repository contains Python scripts utilizing the Visualization Toolkit (VTK) to process and render scientific simulation data of Hurricane Isabel. The project is divided into two distinct rendering techniques: 2D Isocontour Extraction and 3D Direct Volume Rendering.
 
+
+Contributors:
+  -Nishant Sharma
+  -Parth Parashar
+
 Part 1: 2D Isocontour Extraction
 
 This script extracts an isocontour from a 2D uniform grid dataset (VTKImageData). Instead of relying on built-in VTK contour filters, this implementation uses a custom, simplified counterclockwise edge-walking algorithm to manually find crossing points, calculate linear interpolation, and build the contour segments from scratch.
